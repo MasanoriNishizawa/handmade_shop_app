@@ -1,0 +1,86 @@
+.header{
+  height: 300px;
+  width: 100%;
+  background-color: #eeeeee;
+  position: relative;
+  &__title{
+    background-color: #99ccff;
+    font-size: 25px;
+    width: 85%;
+    height: 250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    border: brown solid 1px;
+    border-radius: 5px ;
+    font-family: 'Courier New', Courier, monospace;
+    &__content{
+      text-align: center;
+      line-height: 250px;
+    }
+  }
+  &__menu_bar{
+    display: flex;
+    height: 35px;
+    background-color: #faf0e6;
+    position: relative;
+    justify-content: space-around;
+    border: brown solid 1px;
+    border-radius: 5px ;
+    a{
+      line-height: 35px;
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Courier New', Courier, monospace;
+      color: #444444;
+    }
+  }
+}
+
+.main{
+  height: calc(100% - 335px);
+  width: 100%;
+  background-color: #eeeeee;
+  position: relative;
+
+  &__items{
+    height: 100%;
+    margin: 0 auto;
+    width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+
+
+
+    .item{
+      background-color: #dddddd;
+      height: 300px;
+      margin: 50px 10px;
+      position: relative;
+      width: 300px;
+      border: brown solid 1px;
+      border-radius: 5px ;
+    }
+  }
+}
+
+.footer{
+  height: 100px;
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  &__about_us{
+    line-height: 100px;
+    a{
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+      color: #444444;
+      text-decoration: none ;
+    }
+  }
+}
