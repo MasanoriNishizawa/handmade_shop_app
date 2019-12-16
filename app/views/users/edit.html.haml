@@ -5,10 +5,10 @@
     %ul.btn
       %li.menu
         = link_to destroy_user_session_path, method: :delete do
-          = icon('fas', 'envelope')
+          = icon('fas', 'sign-out-alt')
       %li.menu
         = link_to :back do
-          = icon('fas', 'shopping-cart')
+          = icon('fas', 'home')
     .account-page__inner__form
       = form_for(current_user) do |f|
         .field
