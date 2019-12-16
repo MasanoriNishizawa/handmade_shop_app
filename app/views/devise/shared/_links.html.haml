@@ -1,6 +1,6 @@
 - if controller_name != 'sessions'
   = link_to new_session_path(resource_name) do
-    = icon('fas', 'shopping-cart')
+    = icon('fas', 'sign-in-alt')
 - if devise_mapping.registerable? && controller_name != 'registrations'
   = link_to new_registration_path(resource_name) do
-    = icon('fas', 'shopping-cart')
+    = icon('fas', 'plus')
