@@ -2,3 +2,12 @@
 @import "items";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import "user";
+
+body{
+  font-family: 'Courier New', Courier, monospace;
+  color: #444444;
+  a{
+    color: #444444;
+  }
+}
