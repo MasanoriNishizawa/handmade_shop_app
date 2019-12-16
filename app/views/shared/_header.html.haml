@@ -1,17 +1,23 @@
 .header
-  .header__title
-    .header__title__content
-      FORM TEST
-%ul.header__menu_bar
-  %li.menu
-    = link_to "#" do
-      = icon('fas', 'home')
-  %li.menu
-    = link_to "#" do
-      = icon('fas', 'bars')
-  %li.menu
-    = link_to "#" do
-      = icon('fas', 'envelope')
-  %li.menu
-    = link_to "#" do
-      = icon('fas',   'shopping-cart')
+  #nav-toggle
+    %div
+      %span
+      %span
+      %span
+  #gloval-nav
+    %nav
+      %ul
+        %li
+          %a{:href => "#"} Home
+        %li
+          %a{:href => "#"} Curt
+        %li
+          = link_to 'Edit Acount', edit_user_path(current_user)
+        %li
+          %a{:href => "#"} Works
+        %li
+          %a{:href => "#"} Contact
+  / /#gloval-nav
+  #container
+    %h1 test
+
