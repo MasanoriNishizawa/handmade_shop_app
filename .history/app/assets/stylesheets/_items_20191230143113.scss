@@ -31,7 +31,7 @@ $chara-color: #444444;
 .main{
   height: calc(100% - 335px);
   width: 100%;
-  background-color: white;
+  background-color: #eeeeee;
   position: relative;
 
   &__items{
@@ -55,6 +55,8 @@ $chara-color: #444444;
       margin: 50px 10px;
       position: relative;
       width: 300px;
+      border: brown solid 1px;
+      border-radius: 5px ;
     }
   }
 }
